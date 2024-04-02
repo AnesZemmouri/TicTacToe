@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  /* background: rgb(220, 220, 220); */
+}
+.cell {
+  width: 75px;
+  height: 75px;
+  border: 2px solid;
+  box-shadow: 0 0 0 2px;
+  line-height: 75px;
+  font-size: 55px;
+  cursor: pointer;
+}
+
+#cellContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 225px;
+  margin: auto;
+}
+
+#gameContainer {
+  font-size: ;
+  text-align: center;
+}
+button {
+  padding: 5px 20px;
+  background-image: linear-gradient(12deg, #66fa9c 0%, #53bcf0 100%);
+  border-radius: 10px;
+  border: none;
+  color: azure;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer p {
+  color: rgba(69, 69, 69, 0.604);
+}
